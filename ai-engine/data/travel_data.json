@@ -1,0 +1,229 @@
+{
+  "destinations": [
+    {
+      "id": "goa",
+      "name": "Goa",
+      "state": "Goa",
+      "description": "India's beach paradise with Portuguese heritage, vibrant nightlife, and stunning coastline",
+      "best_season": ["November", "December", "January", "February", "March"],
+      "avg_temperature": "26°C",
+      "tags": ["beaches", "nightlife", "adventure", "food", "history", "water_sports"],
+      "budget_per_day": {"budget": 1500, "mid": 3500, "luxury": 8000},
+      "places": [
+        {"id": "goa_p1", "name": "Baga Beach", "category": "beach", "rating": 4.5, "popularity": 95, "cost": 0, "duration_hours": 4, "description": "Famous beach with water sports, beach shacks, and vibrant nightlife. Best for water sports and parties.", "tags": ["beach", "nightlife", "water_sports"]},
+        {"id": "goa_p2", "name": "Calangute Beach", "category": "beach", "rating": 4.3, "popularity": 90, "cost": 0, "duration_hours": 3, "description": "Queen of beaches with clean shores, shops and restaurants nearby.", "tags": ["beach", "shopping", "family"]},
+        {"id": "goa_p3", "name": "Dudhsagar Falls", "category": "adventure", "rating": 4.8, "popularity": 85, "cost": 800, "duration_hours": 8, "description": "Spectacular four-tiered waterfall, one of India's tallest. Jeep safari through jungle.", "tags": ["adventure", "nature", "trekking"]},
+        {"id": "goa_p4", "name": "Fort Aguada", "category": "history", "rating": 4.4, "popularity": 80, "cost": 30, "duration_hours": 2, "description": "17th-century Portuguese fort offering panoramic views of the Arabian Sea.", "tags": ["history", "photography", "sunset"]},
+        {"id": "goa_p5", "name": "Anjuna Flea Market", "category": "shopping", "rating": 4.2, "popularity": 75, "cost": 0, "duration_hours": 3, "description": "Wednesday market with handicrafts, clothes, spices and local goods.", "tags": ["shopping", "culture", "food"]},
+        {"id": "goa_p6", "name": "Chapora Fort", "category": "history", "rating": 4.3, "popularity": 78, "cost": 0, "duration_hours": 2, "description": "Iconic fort featured in Dil Chahta Hai, stunning sunset views.", "tags": ["history", "sunset", "photography"]},
+        {"id": "goa_p7", "name": "Scuba Diving at Grande Island", "category": "adventure", "rating": 4.7, "popularity": 70, "cost": 3500, "duration_hours": 6, "description": "Explore vibrant coral reefs and marine life with professional instructors.", "tags": ["adventure", "water_sports", "nature"]},
+        {"id": "goa_p8", "name": "Spice Plantation Tour", "category": "culture", "rating": 4.4, "popularity": 65, "cost": 1200, "duration_hours": 4, "description": "Guided tour through cardamom, pepper and cashew plantations with lunch.", "tags": ["culture", "food", "nature"]},
+        {"id": "goa_p9", "name": "Old Goa Churches", "category": "history", "rating": 4.5, "popularity": 72, "cost": 0, "duration_hours": 3, "description": "UNESCO World Heritage churches including Basilica of Bom Jesus.", "tags": ["history", "culture", "architecture"]},
+        {"id": "goa_p10", "name": "Vagator Beach", "category": "beach", "rating": 4.4, "popularity": 68, "cost": 0, "duration_hours": 3, "description": "Secluded rocky beach with cliffs, less crowded, perfect for sunsets.", "tags": ["beach", "sunset", "peaceful"]}
+      ],
+      "hotels": [
+        {"id": "goa_h1", "name": "Zostel Goa", "tier": "budget", "price_per_night": 600, "rating": 4.2, "amenities": ["wifi", "common_room", "breakfast", "pool"], "location": "Panaji", "description": "Popular backpacker hostel with great social vibe"},
+        {"id": "goa_h2", "name": "Park Hyatt Goa", "tier": "luxury", "price_per_night": 12000, "rating": 4.8, "amenities": ["pool", "spa", "restaurant", "beach_access", "wifi", "gym"], "location": "Arossim Beach", "description": "5-star luxury resort with private beach access"},
+        {"id": "goa_h3", "name": "Treebo Trend Goa Beach House", "tier": "mid", "price_per_night": 2800, "rating": 4.1, "amenities": ["wifi", "ac", "breakfast", "parking"], "location": "Calangute", "description": "Comfortable mid-range hotel near Calangute beach"},
+        {"id": "goa_h4", "name": "The Hideout Hostel", "tier": "budget", "price_per_night": 450, "rating": 4.0, "amenities": ["wifi", "kitchen", "lockers"], "location": "Anjuna", "description": "Chill budget hostel near Anjuna beach"},
+        {"id": "goa_h5", "name": "Wildflower Boutique", "tier": "mid", "price_per_night": 3500, "rating": 4.4, "amenities": ["pool", "wifi", "restaurant", "ac"], "location": "Vagator", "description": "Boutique hotel with beautiful pool and garden"}
+      ],
+      "food": [
+        {"name": "Brittos", "type": "seafood restaurant", "avg_cost_per_person": 600, "must_try": ["Fish Curry Rice", "Prawn Balchão"]},
+        {"name": "Gunpowder", "type": "south indian fusion", "avg_cost_per_person": 500, "must_try": ["Kerala Fish Moilee", "Appam"]},
+        {"name": "Fisherman's Wharf", "type": "seafood", "avg_cost_per_person": 800, "must_try": ["Tandoori Lobster", "Goan Fish Curry"]},
+        {"name": "Local Beach Shack", "type": "budget", "avg_cost_per_person": 200, "must_try": ["Bebinca", "Prawn Pulao"]}
+      ],
+      "transport": [
+        {"type": "taxi_per_day", "cost": 1200, "description": "AC taxi for full day sightseeing"},
+        {"type": "scooter_rental", "cost": 400, "description": "Self-drive scooter rental per day"},
+        {"type": "bike_rental", "cost": 250, "description": "Self-drive bike rental per day"},
+        {"type": "auto_rickshaw", "cost": 150, "description": "Per trip within city"}
+      ]
+    },
+    {
+      "id": "manali",
+      "name": "Manali",
+      "state": "Himachal Pradesh",
+      "description": "Himalayan paradise for adventure seekers with snow-capped peaks, river rafting and skiing",
+      "best_season": ["March", "April", "May", "June", "October", "November"],
+      "avg_temperature": "10°C",
+      "tags": ["mountains", "adventure", "trekking", "snow", "camping", "nature"],
+      "budget_per_day": {"budget": 1200, "mid": 2800, "luxury": 7000},
+      "places": [
+        {"id": "manali_p1", "name": "Rohtang Pass", "category": "adventure", "rating": 4.8, "popularity": 95, "cost": 600, "duration_hours": 8, "description": "Snow-covered high-altitude pass at 3978m. Stunning views, snow activities.", "tags": ["adventure", "snow", "photography"]},
+        {"id": "manali_p2", "name": "Solang Valley", "category": "adventure", "rating": 4.7, "popularity": 90, "cost": 1200, "duration_hours": 6, "description": "Skiing, zorbing, paragliding, cable car rides with Himalayan backdrop.", "tags": ["adventure", "snow", "sports"]},
+        {"id": "manali_p3", "name": "Hadimba Temple", "category": "culture", "rating": 4.5, "popularity": 85, "cost": 0, "duration_hours": 2, "description": "Ancient 16th-century wooden temple in cedar forest, peaceful atmosphere.", "tags": ["culture", "history", "nature"]},
+        {"id": "manali_p4", "name": "Beas River Rafting", "category": "adventure", "rating": 4.6, "popularity": 80, "cost": 800, "duration_hours": 4, "description": "Thrilling white water rafting on grade 3-4 rapids through rocky gorges.", "tags": ["adventure", "water_sports", "thrilling"]},
+        {"id": "manali_p5", "name": "Old Manali", "category": "culture", "rating": 4.3, "popularity": 75, "cost": 0, "duration_hours": 3, "description": "Charming old town with cafes, shops, Manu Temple, backpacker vibe.", "tags": ["culture", "food", "shopping"]},
+        {"id": "manali_p6", "name": "Kullu Valley Viewpoint", "category": "nature", "rating": 4.5, "popularity": 70, "cost": 0, "duration_hours": 2, "description": "Panoramic views of apple orchards and snow peaks.", "tags": ["nature", "photography", "peaceful"]},
+        {"id": "manali_p7", "name": "Jogini Waterfall Trek", "category": "trekking", "rating": 4.6, "popularity": 68, "cost": 200, "duration_hours": 4, "description": "Easy to moderate 4km trek through pine forests to a beautiful waterfall.", "tags": ["trekking", "nature", "adventure"]},
+        {"id": "manali_p8", "name": "Naggar Castle", "category": "history", "rating": 4.4, "popularity": 65, "cost": 100, "duration_hours": 3, "description": "Medieval castle converted to heritage hotel with valley views.", "tags": ["history", "culture", "photography"]}
+      ],
+      "hotels": [
+        {"id": "manali_h1", "name": "The Hosteller Manali", "tier": "budget", "price_per_night": 550, "rating": 4.3, "amenities": ["wifi", "bonfire", "common_room", "breakfast"], "location": "Old Manali", "description": "Top-rated backpacker hostel in Old Manali"},
+        {"id": "manali_h2", "name": "Span Resort & Spa", "tier": "luxury", "price_per_night": 9000, "rating": 4.7, "amenities": ["spa", "restaurant", "river_view", "bonfire", "wifi", "gym"], "location": "Kullu-Manali Highway", "description": "Luxury resort on Beas riverbank"},
+        {"id": "manali_h3", "name": "Snow Valley Resorts", "tier": "mid", "price_per_night": 2500, "rating": 4.2, "amenities": ["wifi", "restaurant", "mountain_view", "parking"], "location": "Mall Road", "description": "Comfortable hotel with mountain views"},
+        {"id": "manali_h4", "name": "Zostel Manali", "tier": "budget", "price_per_night": 480, "rating": 4.1, "amenities": ["wifi", "kitchen", "common_room", "bonfire"], "location": "Old Manali", "description": "Social hostel perfect for solo travelers"}
+      ],
+      "food": [
+        {"name": "Johnson's Cafe", "type": "continental", "avg_cost_per_person": 400, "must_try": ["Trout Fish", "Apple Pie"]},
+        {"name": "Drifters Inn", "type": "multi-cuisine", "avg_cost_per_person": 300, "must_try": ["Sidu", "Himachali Dham"]},
+        {"name": "La Plage", "type": "international", "avg_cost_per_person": 500, "must_try": ["Wood-fired Pizza", "Hot Chocolate"]}
+      ],
+      "transport": [
+        {"type": "taxi_per_day", "cost": 1000, "description": "Local taxi for sightseeing"},
+        {"type": "bike_rental", "cost": 600, "description": "Royal Enfield rental per day"},
+        {"type": "volvo_bus", "cost": 1200, "description": "Delhi to Manali Volvo bus one way"}
+      ]
+    },
+    {
+      "id": "jaipur",
+      "name": "Jaipur",
+      "state": "Rajasthan",
+      "description": "The Pink City with magnificent forts, palaces, vibrant bazaars and royal Rajasthani culture",
+      "best_season": ["October", "November", "December", "January", "February", "March"],
+      "avg_temperature": "25°C",
+      "tags": ["history", "culture", "food", "shopping", "architecture", "heritage"],
+      "budget_per_day": {"budget": 1000, "mid": 2500, "luxury": 6000},
+      "places": [
+        {"id": "jaipur_p1", "name": "Amber Fort", "category": "history", "rating": 4.8, "popularity": 95, "cost": 550, "duration_hours": 4, "description": "Magnificent hilltop fort with intricate architecture, elephant rides, light show.", "tags": ["history", "architecture", "photography"]},
+        {"id": "jaipur_p2", "name": "Hawa Mahal", "category": "history", "rating": 4.6, "popularity": 92, "cost": 200, "duration_hours": 2, "description": "Iconic Palace of Winds with 953 windows, best viewed at sunrise from opposite cafe.", "tags": ["history", "architecture", "photography"]},
+        {"id": "jaipur_p3", "name": "City Palace", "category": "history", "rating": 4.7, "popularity": 88, "cost": 700, "duration_hours": 3, "description": "Royal palace complex with museum, courtyards, and stunning Rajput architecture.", "tags": ["history", "culture", "royal"]},
+        {"id": "jaipur_p4", "name": "Nahargarh Fort", "category": "history", "rating": 4.5, "popularity": 82, "cost": 200, "duration_hours": 3, "description": "Hilltop fort with panoramic city views, spectacular at sunset.", "tags": ["history", "sunset", "photography"]},
+        {"id": "jaipur_p5", "name": "Johari Bazaar", "category": "shopping", "rating": 4.4, "popularity": 85, "cost": 0, "duration_hours": 3, "description": "Famous jewelry and gemstone market, also sarees, bangles, Rajasthani handicrafts.", "tags": ["shopping", "culture", "food"]},
+        {"id": "jaipur_p6", "name": "Jal Mahal", "category": "nature", "rating": 4.3, "popularity": 78, "cost": 0, "duration_hours": 1, "description": "Water Palace floating in Man Sagar Lake, best seen from the road during sunrise/sunset.", "tags": ["photography", "architecture", "peaceful"]},
+        {"id": "jaipur_p7", "name": "Jantar Mantar", "category": "history", "rating": 4.5, "popularity": 75, "cost": 200, "duration_hours": 2, "description": "UNESCO World Heritage astronomical observatory with giant instruments.", "tags": ["history", "science", "architecture"]}
+      ],
+      "hotels": [
+        {"id": "jaipur_h1", "name": "Moustache Jaipur", "tier": "budget", "price_per_night": 500, "rating": 4.4, "amenities": ["wifi", "pool", "breakfast", "common_room", "rooftop"], "location": "Hathroi Fort", "description": "Best budget hostel in Jaipur with pool and rooftop views"},
+        {"id": "jaipur_h2", "name": "Rambagh Palace", "tier": "luxury", "price_per_night": 25000, "rating": 4.9, "amenities": ["pool", "spa", "royal_suites", "restaurant", "garden", "wifi"], "location": "Bhawani Singh Road", "description": "Former royal palace, most iconic luxury hotel"},
+        {"id": "jaipur_h3", "name": "Hotel Pearl Palace", "tier": "mid", "price_per_night": 1800, "rating": 4.5, "amenities": ["wifi", "rooftop_restaurant", "ac", "parking"], "location": "Hathroi Fort", "description": "Excellent value hotel with award-winning rooftop restaurant"},
+        {"id": "jaipur_h4", "name": "Zostel Jaipur", "tier": "budget", "price_per_night": 400, "rating": 4.1, "amenities": ["wifi", "kitchen", "common_room"], "location": "Bani Park", "description": "Well-located budget hostel"}
+      ],
+      "food": [
+        {"name": "Laxmi Misthan Bhandar", "type": "traditional rajasthani", "avg_cost_per_person": 200, "must_try": ["Dal Baati Churma", "Ghewar", "Pyaaz Kachori"]},
+        {"name": "1135 AD", "type": "royal dining", "avg_cost_per_person": 2000, "must_try": ["Laal Maas", "Ker Sangri"]},
+        {"name": "Chokhi Dhani", "type": "cultural village", "avg_cost_per_person": 1200, "must_try": ["Rajasthani Thali"]}
+      ],
+      "transport": [
+        {"type": "auto_rickshaw_per_day", "cost": 500, "description": "Hop-on hop-off tour with guide"},
+        {"type": "taxi_per_day", "cost": 900, "description": "AC cab for full day sightseeing"},
+        {"type": "cycle_rickshaw", "cost": 200, "description": "Old city exploration per hour"}
+      ]
+    },
+    {
+      "id": "kerala",
+      "name": "Kerala",
+      "state": "Kerala",
+      "description": "God's Own Country with backwaters, tea plantations, elephants and Ayurvedic traditions",
+      "best_season": ["September", "October", "November", "December", "January", "February"],
+      "avg_temperature": "28°C",
+      "tags": ["backwaters", "nature", "culture", "ayurveda", "beaches", "wildlife", "food"],
+      "budget_per_day": {"budget": 1300, "mid": 3000, "luxury": 8000},
+      "places": [
+        {"id": "kerala_p1", "name": "Alleppey Backwaters", "category": "nature", "rating": 4.9, "popularity": 95, "cost": 8000, "duration_hours": 24, "description": "Overnight houseboat on Kerala backwaters with meals included, unforgettable experience.", "tags": ["backwaters", "nature", "relaxation", "luxury"]},
+        {"id": "kerala_p2", "name": "Munnar Tea Gardens", "category": "nature", "rating": 4.7, "popularity": 90, "cost": 500, "duration_hours": 6, "description": "Rolling hills covered with tea plantations, tea museum, Eravikulam National Park.", "tags": ["nature", "photography", "trekking"]},
+        {"id": "kerala_p3", "name": "Periyar Wildlife Sanctuary", "category": "wildlife", "rating": 4.6, "popularity": 85, "cost": 1200, "duration_hours": 8, "description": "Boat safari on Periyar Lake to spot elephants, tigers, bison in natural habitat.", "tags": ["wildlife", "nature", "adventure"]},
+        {"id": "kerala_p4", "name": "Fort Kochi", "category": "history", "rating": 4.5, "popularity": 82, "cost": 0, "duration_hours": 4, "description": "Historic port area with Chinese fishing nets, synagogue, Dutch Palace, cafes.", "tags": ["history", "culture", "food", "art"]},
+        {"id": "kerala_p5", "name": "Varkala Beach", "category": "beach", "rating": 4.6, "popularity": 78, "cost": 0, "duration_hours": 4, "description": "Clifftop beach with mineral springs, yoga shacks, and stunning sunsets.", "tags": ["beach", "yoga", "sunset", "relaxation"]},
+        {"id": "kerala_p6", "name": "Kathakali Show", "category": "culture", "rating": 4.7, "popularity": 75, "cost": 350, "duration_hours": 2, "description": "Traditional Kerala dance drama with elaborate costumes and makeup.", "tags": ["culture", "art", "tradition"]}
+      ],
+      "hotels": [
+        {"id": "kerala_h1", "name": "Marari Beach Backpackers", "tier": "budget", "price_per_night": 600, "rating": 4.1, "amenities": ["beach_access", "wifi", "breakfast"], "location": "Marari Beach", "description": "Budget stay near pristine beach"},
+        {"id": "kerala_h2", "name": "Kumarakom Lake Resort", "tier": "luxury", "price_per_night": 18000, "rating": 4.9, "amenities": ["pool", "spa", "restaurant", "backwater_view", "wifi", "yoga"], "location": "Kumarakom", "description": "Award-winning luxury resort on backwaters"},
+        {"id": "kerala_h3", "name": "Zostel Kochi", "tier": "budget", "price_per_night": 500, "rating": 4.2, "amenities": ["wifi", "common_room", "kitchen"], "location": "Fort Kochi", "description": "Great location in historic Fort Kochi"},
+        {"id": "kerala_h4", "name": "Fragrant Nature Resort", "tier": "mid", "price_per_night": 3200, "rating": 4.3, "amenities": ["pool", "ayurveda", "restaurant", "wifi"], "location": "Munnar", "description": "Beautiful resort amid tea gardens"}
+      ],
+      "food": [
+        {"name": "Kayees Rahmathullah Hotel", "type": "traditional kerala", "avg_cost_per_person": 150, "must_try": ["Kerala Meals", "Malabar Biryani"]},
+        {"name": "Grand Hotel", "type": "seafood", "avg_cost_per_person": 400, "must_try": ["Prawn curry", "Karimeen Pollichathu"]},
+        {"name": "Paragon Restaurant", "type": "kerala cuisine", "avg_cost_per_person": 300, "must_try": ["Kozhikodan Biryani", "Fish Fry"]}
+      ],
+      "transport": [
+        {"type": "houseboat", "cost": 8000, "description": "Overnight houseboat with meals"},
+        {"type": "taxi_per_day", "cost": 1100, "description": "AC taxi for sightseeing"},
+        {"type": "auto_rickshaw", "cost": 200, "description": "Local transport within city"}
+      ]
+    },
+    {
+      "id": "rajasthan",
+      "name": "Udaipur",
+      "state": "Rajasthan",
+      "description": "City of Lakes — the most romantic city in India with palaces, lakes and rich culture",
+      "best_season": ["October", "November", "December", "January", "February"],
+      "avg_temperature": "28°C",
+      "tags": ["history", "culture", "romance", "lakes", "architecture", "food"],
+      "budget_per_day": {"budget": 1100, "mid": 2800, "luxury": 7500},
+      "places": [
+        {"id": "udaipur_p1", "name": "City Palace", "category": "history", "rating": 4.8, "popularity": 95, "cost": 700, "duration_hours": 4, "description": "Largest palace complex in Rajasthan overlooking Lake Pichola with amazing museum.", "tags": ["history", "architecture", "museum"]},
+        {"id": "udaipur_p2", "name": "Lake Pichola Boat Ride", "category": "nature", "rating": 4.7, "popularity": 90, "cost": 700, "duration_hours": 2, "description": "Evening boat ride to Lake Palace hotel with sunset views, magical experience.", "tags": ["romance", "sunset", "nature"]},
+        {"id": "udaipur_p3", "name": "Saheliyon Ki Bari", "category": "history", "rating": 4.4, "popularity": 75, "cost": 150, "duration_hours": 1.5, "description": "Garden of Maidens with fountains, lotus pools and marble pavilions.", "tags": ["history", "garden", "peaceful"]},
+        {"id": "udaipur_p4", "name": "Jagdish Temple", "category": "culture", "rating": 4.5, "popularity": 78, "cost": 0, "duration_hours": 1, "description": "16th century Indo-Aryan temple dedicated to Lord Vishnu, intricate carvings.", "tags": ["culture", "religion", "architecture"]},
+        {"id": "udaipur_p5", "name": "Bagore Ki Haveli", "category": "culture", "rating": 4.4, "popularity": 72, "cost": 100, "duration_hours": 2, "description": "Heritage haveli with folk dance shows in the evening, beautiful courtyard.", "tags": ["culture", "dance", "heritage"]}
+      ],
+      "hotels": [
+        {"id": "udaipur_h1", "name": "Zostel Udaipur", "tier": "budget", "price_per_night": 450, "rating": 4.3, "amenities": ["wifi", "lake_view", "common_room", "rooftop"], "location": "Lal Ghat", "description": "Budget stay with stunning lake views"},
+        {"id": "udaipur_h2", "name": "Taj Lake Palace", "tier": "luxury", "price_per_night": 30000, "rating": 4.9, "amenities": ["pool", "spa", "fine_dining", "lake_view", "wifi"], "location": "Lake Pichola", "description": "Island luxury hotel on Lake Pichola"},
+        {"id": "udaipur_h3", "name": "Hill View Guest House", "tier": "mid", "price_per_night": 1500, "rating": 4.2, "amenities": ["wifi", "rooftop_restaurant", "ac"], "location": "Lal Ghat", "description": "Value hotel with rooftop lake views"}
+      ],
+      "food": [
+        {"name": "Natraj Dining Hall", "type": "traditional rajasthani", "avg_cost_per_person": 200, "must_try": ["Dal Baati Churma", "Gatte Ki Sabzi"]},
+        {"name": "Upre by 1559 AD", "type": "fine dining", "avg_cost_per_person": 1500, "must_try": ["Laal Maas", "Rajasthani Thali"]},
+        {"name": "Millets of Mewar", "type": "organic", "avg_cost_per_person": 400, "must_try": ["Millet Pizza", "Local Breads"]}
+      ],
+      "transport": [
+        {"type": "taxi_per_day", "cost": 800, "description": "Local taxi for sightseeing"},
+        {"type": "e_rickshaw", "cost": 150, "description": "Electric rickshaw within old city"},
+        {"type": "boat_ride", "cost": 700, "description": "Lake Pichola sunset boat ride"}
+      ]
+    },
+    {
+      "id": "shimla",
+      "name": "Shimla",
+      "state": "Himachal Pradesh",
+      "description": "Queen of Hill Stations with colonial architecture, toy train and panoramic Himalayan views",
+      "best_season": ["March", "April", "May", "June", "December", "January"],
+      "avg_temperature": "12°C",
+      "tags": ["mountains", "colonial", "nature", "shopping", "trekking", "snow"],
+      "budget_per_day": {"budget": 1000, "mid": 2500, "luxury": 6000},
+      "places": [
+        {"id": "shimla_p1", "name": "Mall Road", "category": "shopping", "rating": 4.5, "popularity": 95, "cost": 0, "duration_hours": 3, "description": "Iconic promenade with shops, restaurants, ice cream parlors and stunning views.", "tags": ["shopping", "food", "walking"]},
+        {"id": "shimla_p2", "name": "Jakhu Temple & Trek", "category": "trekking", "rating": 4.6, "popularity": 85, "cost": 0, "duration_hours": 3, "description": "2.5km trek to highest peak in Shimla, Hanuman temple, playful monkeys, panoramic views.", "tags": ["trekking", "nature", "culture"]},
+        {"id": "shimla_p3", "name": "Kufri", "category": "adventure", "rating": 4.4, "popularity": 82, "cost": 1500, "duration_hours": 6, "description": "Ski resort 13km from Shimla, snow activities, yak rides, adventure park.", "tags": ["adventure", "snow", "sports"]},
+        {"id": "shimla_p4", "name": "Toy Train (Kalka-Shimla)", "category": "experience", "rating": 4.8, "popularity": 90, "cost": 400, "duration_hours": 5, "description": "UNESCO World Heritage narrow gauge railway through tunnels and viaducts.", "tags": ["experience", "scenic", "history"]}
+      ],
+      "hotels": [
+        {"id": "shimla_h1", "name": "Zostel Shimla", "tier": "budget", "price_per_night": 500, "rating": 4.2, "amenities": ["wifi", "mountain_view", "common_room"], "location": "The Mall", "description": "Best budget option with great views"},
+        {"id": "shimla_h2", "name": "Wildflower Hall Oberoi", "tier": "luxury", "price_per_night": 15000, "rating": 4.8, "amenities": ["spa", "pool", "restaurant", "forest_view", "wifi", "gym"], "location": "Mashobra", "description": "Former home of Lord Kitchener, luxury resort"},
+        {"id": "shimla_h3", "name": "Hotel Combermere", "tier": "mid", "price_per_night": 2200, "rating": 4.1, "amenities": ["wifi", "restaurant", "valley_view"], "location": "The Mall", "description": "Colonial-era heritage hotel on Mall Road"}
+      ],
+      "food": [
+        {"name": "Cafe Sol", "type": "continental", "avg_cost_per_person": 400, "must_try": ["Trout", "Apple Cider"]},
+        {"name": "Ashiana & Goofa", "type": "indian", "avg_cost_per_person": 300, "must_try": ["Himachali cuisine", "Siddu"]},
+        {"name": "Baljees", "type": "bakery", "avg_cost_per_person": 150, "must_try": ["Patties", "Pastries"]}
+      ],
+      "transport": [
+        {"type": "taxi_per_day", "cost": 900, "description": "Local sightseeing taxi"},
+        {"type": "toy_train", "cost": 400, "description": "Kalka to Shimla one way"}
+      ]
+    }
+  ],
+  "travel_tips": [
+    "Always carry valid government ID for hotel check-ins",
+    "Book accommodation in advance during peak season (Oct-Feb for most destinations)",
+    "Use UPI apps like PhonePe or Google Pay - widely accepted across India",
+    "Download offline maps before visiting hill stations",
+    "Carry cash as ATMs can be scarce in remote areas",
+    "Bargain at local markets - start at 50% of quoted price",
+    "Respect local customs - dress modestly at religious sites",
+    "Try street food but stick to freshly cooked items",
+    "Book train tickets 30-60 days in advance using IRCTC",
+    "Weather can change rapidly in mountains - carry layered clothing"
+  ],
+  "budget_categories": {
+    "budget": {"hotel_max": 800, "food_per_day": 400, "label": "Budget Traveler"},
+    "mid": {"hotel_max": 4000, "food_per_day": 800, "label": "Mid-range Traveler"},
+    "luxury": {"hotel_max": 30000, "food_per_day": 2000, "label": "Luxury Traveler"}
+  }
+}
